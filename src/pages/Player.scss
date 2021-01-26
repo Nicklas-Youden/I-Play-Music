@@ -1,0 +1,13 @@
+
+.Player{
+  height: 100vh;
+  overflow: hidden;
+
+
+  &__backgroundImage{
+    height: 100%;
+    width: auto;
+    z-index: -1;
+    
+  }
+}
