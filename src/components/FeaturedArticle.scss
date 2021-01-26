@@ -1,0 +1,42 @@
+.featured__articles{
+  .featured__article{
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "."
+    "title";
+    // "subtitle";
+    img{
+      z-index: -1;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    
+    .shaddow{
+      grid-area: title;
+      background: linear-gradient(#00000000, #111111);
+      padding-top: 3em;
+      border-radius: 10px;
+    }
+    
+    .Article__title{
+      color: white;
+      font-size: 2.0em;
+      font-family: 'Poppins', sans-serif;
+      margin: 0 0 0 5% ;
+    }
+    .Article__subtitle{
+      //  grid-area: subtitle;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      margin: 2em 0 4em 5% ;
+    }   
+  }
+}

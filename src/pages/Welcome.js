@@ -1,4 +1,4 @@
-import "./../components/WelcomeLogo.scss";
+import "./WelcomeLogo.scss";
 
 export default function Welcome(){
     return(
