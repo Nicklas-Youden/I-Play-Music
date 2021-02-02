@@ -10,7 +10,7 @@ export default function SiteDrawer(){
       <Link className="SiteDrawer__button" to="/playlist">
       <i className="icon-mic"></i>
       </Link>
-      <Link className="SiteDrawer__button SiteDrawer__button--large" to="/featured">
+      <Link className="SiteDrawer__button SiteDrawer__button--large" to="/">
       <i className="icon-fire"></i>
       </Link>
       <Link className="SiteDrawer__button" to="/">

@@ -11,10 +11,11 @@ export default function Featured(){
       <h1 className="Featured__title">Featured</h1>
       <section className="featured__articles">
 
-        <FeaturedArticle/>
-        <FeaturedArticle/>
-        <FeaturedArticle/>
-        <FeaturedArticle/>
+        <FeaturedArticle image="https://picsum.photos/300/400" album="The Greatest Showman" genre="Soundtrack"/>
+        <FeaturedArticle image="https://picsum.photos/300/400" album="Black" genre="Metel"/>
+        <FeaturedArticle image="https://picsum.photos/300/400" album="Guilty Clown" genre="Pop"/>
+        <FeaturedArticle image="https://picsum.photos/300/400" album="The Greatest Showman" genre="Soundtrack"/>
+        
       </section>
       <SiteDrawer></SiteDrawer>
     </div>

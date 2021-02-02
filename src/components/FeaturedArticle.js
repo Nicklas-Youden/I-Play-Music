@@ -1,18 +1,18 @@
 import "./FeaturedArticle.scss";
 
 
-export default function FeaturedArticle(){
+export default function FeaturedArticle({album, genre, image}){
   return(
 
       <article className="featured__article">
-        <img src="https://picsum.photos/300/400" alt=""/>
+        <img src={image} alt=""/>
         
         <div className="shaddow">
           
           <h2 className="Article__title">
-          The Greatest Showman
+          {album}
           </h2>
-          <h6 className="Article__subtitle">Soundtrack</h6>
+          <h6 className="Article__subtitle">{genre}</h6>
         </div>
         
       </article>
