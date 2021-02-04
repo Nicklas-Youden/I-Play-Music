@@ -5,7 +5,8 @@ export default function SiteHeader({transparent, TopBackground, children}){
     <article className="siteHeader" style={{
       background: transparent?"transparent":"white",
       backgroundImage: TopBackground?`url(${TopBackground})`:"unset",
-      height: TopBackground?"20.7em":"1em",
+      backgroundRepeat: TopBackground?"no-repeat":"unset",
+      height: TopBackground?"16.9em":"1em",
       color: TopBackground?"white":"black",
       zIndex: TopBackground?"-1":"1"
       }}>
