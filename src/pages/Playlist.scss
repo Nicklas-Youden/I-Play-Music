@@ -1,0 +1,19 @@
+.playlist{
+  padding: 3em 0;
+  &__title{
+    color: white;
+    padding:0 1em;
+  }
+  &__imagecontainer{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    &>*{
+      margin: 1.5em;
+    }
+  }
+  
+
+
+}
