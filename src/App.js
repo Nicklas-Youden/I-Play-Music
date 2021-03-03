@@ -8,10 +8,15 @@ import Login from "./pages/Login";
 import Callback from "./pages/Callback";
 import TokenContext from "./contexts/TokenContext";
 import { useState } from "react";
+import ErrorBoundary from "./components/ErrorBoundary";
+
+
 
 function App() {
   var tokenState = useState(null);
   return (
+    <ErrorBoundary>
+
     <TokenContext.Provider value={tokenState}>
       <Router>
         <Login default />
@@ -22,6 +27,7 @@ function App() {
         <Playlist path="playlist" />
       </Router>
     </TokenContext.Provider>
+    </ErrorBoundary>
   );
 }
 

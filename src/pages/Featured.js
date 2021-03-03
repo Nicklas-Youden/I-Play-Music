@@ -24,8 +24,8 @@ export default function Featured() {
     },
     [token, setContent]
   );
-
   return (
+
     <div className="wrapper">
       <SiteHeader>Featured</SiteHeader>
       <h1 className="Featured__title">Featured</h1>
@@ -33,15 +33,16 @@ export default function Featured() {
         {content.playlists?.items.map(function (item) {
           return (
             <FeaturedArticle
-              key={item.id}
-              image={item.images[0].url}
-              album={item.name}
-              genre={item.type}
+            key={item.id}
+            image={item.images[0].url}
+            album={item.name}
+            genre={item.type}
             />
-          );
-        })}
+            );
+          })}
       </section>
       <SiteDrawer></SiteDrawer>
     </div>
+    
   );
 }
