@@ -1,21 +1,19 @@
-
-.Welcome{
-display: flex;
-min-height: 100vh;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-gap: 2em;
-  .Welcome__Logo{
+.Welcome {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  .Welcome__Logo {
     width: 50vw;
     height: auto;
-
   }
 
-  .Welcome__text{
+  .Welcome__text {
     font-size: 8vw;
-    color:#341931;
-    font-family: 'Poppins', sans-serif;
+    color: #341931;
+    font-family: "Poppins", sans-serif;
     margin: 0;
   }
 }
