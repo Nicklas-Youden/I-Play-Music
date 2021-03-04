@@ -1,23 +1,19 @@
-.siteHeader{
+.siteHeader {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
   align-items: flex-start;
   letter-spacing: 2px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.9em;
   position: fixed;
   top: 0;
   left: 0rem;
   right: 0rem;
   padding: 1em 1rem;
-  
-  
-  
 
-
-
-  .icon-left-open, .icon-search{
+  .icon-left-open,
+  .icon-search {
     font-size: 0.9rem;
   }
 }
