@@ -14,7 +14,7 @@ export default function Login() {
     scope:
       "user-read-private user-read-email user-library-read playlist-read-private playlist-read-collaborative",
     redirect_uri: process.env.NODE_ENV === "production" 
-    ? "https://iplaymusicnicklashansen.netlify.app/" 
+    ? "https://iplaymusicnicklashansen.netlify.app/callback" 
     : "http://localhost:8888/callback",
     state,
   });
