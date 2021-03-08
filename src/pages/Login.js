@@ -8,14 +8,6 @@ export default function Login() {
   date = date.setSeconds(date.getSeconds() + 10);
   document.cookie = `state=${state}; expires=${date}`;
 
-  var uri;
-
-  if (process.env.NODE_ENV === "production") {
-    uri = "https://iplaymusicnicklashansen.netlify.app/";
-  } else {
-    uri = "http://localhost:8888/callback";
-  }
-
   var options = querystring.stringify({
     response_type: "code",
     client_id: "e734fb09ce11423e8ec459d526ceb050",
